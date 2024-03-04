@@ -30,10 +30,11 @@ if(p){
         }
         if(index2>text2.length){
             p.innerHTML=text2;
+            clearInterval(interval);
         }
     }
 
-    setInterval(function(){
+    let interval = setInterval(function(){
         writing();
     },180);
 }
