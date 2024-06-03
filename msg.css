@@ -967,6 +967,7 @@ body {
     transform: scale(0);
   }
 }
+
 @keyframes moving-grass {
   0%, 100% {
     transform: rotate(-48deg) rotateY(40deg);
@@ -975,6 +976,7 @@ body {
     transform: rotate(-50deg) rotateY(40deg);
   }
 }
+
 @keyframes moving-grass--2 {
   0%, 100% {
     transform: scale(0.5) rotate(75deg) rotateX(10deg) rotateY(-200deg);
@@ -992,6 +994,7 @@ body {
     transform: scale(0);
   }
 }
+
 .not-loaded * {
   animation-play-state: paused !important;
 }
